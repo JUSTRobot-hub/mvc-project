@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <title>MVC Architecture test</title>
+  </head>
+  <body>
+    <h1>USER LIST</h1>
+    <ul>
+      {{#each users}}
+        <li><h3>Name:
+            {{this.name}}
+            / Age:
+            {{this.age}}
+            / Email:
+            {{this.email}}</h3></li>
+      {{/each}}
+    </ul>
+  </body>
+</html>
